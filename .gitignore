@@ -1,0 +1,24 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Python cache and byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.pytest_cache/
+
+# Raw generated datasets
+data/raw/*.csv
+
+# Operating System metadata
+.DS_Store
+Thumbs.db
